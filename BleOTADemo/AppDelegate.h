@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreBluetooth/CoreBluetooth.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic ,strong) CBPeripheral *peripheral;
+
+@property (nonatomic ,copy) NSString *Globeuuidstr;
 
 @end
 

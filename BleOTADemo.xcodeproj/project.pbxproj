@@ -13,6 +13,7 @@
 		9C5AE7A91D88463700618536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5AE7A71D88463700618536 /* Main.storyboard */; };
 		9C5AE7AB1D88463700618536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5AE7AA1D88463700618536 /* Assets.xcassets */; };
 		9C5AE7AE1D88463700618536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5AE7AC1D88463700618536 /* LaunchScreen.storyboard */; };
+		9C5AE7B71D884A8C00618536 /* NSStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5AE7B61D884A8C00618536 /* NSStringTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9C5AE7AA1D88463700618536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C5AE7AD1D88463700618536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C5AE7AF1D88463700618536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5AE7B51D884A8C00618536 /* NSStringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSStringTool.h; path = Assets.xcassets/NSStringTool.h; sourceTree = "<group>"; };
+		9C5AE7B61D884A8C00618536 /* NSStringTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStringTool.m; path = Assets.xcassets/NSStringTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				9C5AE7A21D88463700618536 /* AppDelegate.m */,
 				9C5AE7A41D88463700618536 /* ViewController.h */,
 				9C5AE7A51D88463700618536 /* ViewController.m */,
+				9C5AE7B51D884A8C00618536 /* NSStringTool.h */,
+				9C5AE7B61D884A8C00618536 /* NSStringTool.m */,
 				9C5AE7A71D88463700618536 /* Main.storyboard */,
 				9C5AE7AA1D88463700618536 /* Assets.xcassets */,
 				9C5AE7AC1D88463700618536 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				9C5AE7A61D88463700618536 /* ViewController.m in Sources */,
 				9C5AE7A31D88463700618536 /* AppDelegate.m in Sources */,
 				9C5AE7A01D88463700618536 /* main.m in Sources */,
+				9C5AE7B71D884A8C00618536 /* NSStringTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
